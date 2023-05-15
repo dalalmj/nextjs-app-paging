@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className=" m-8 ">
       <h1 className="text-4xl font-bold pb-8">
-        Next.js App Route Paging Three ways
+        Next.js App Router Paging Three ways
       </h1>
       <Link
         href="/tools"

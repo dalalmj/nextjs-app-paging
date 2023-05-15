@@ -20,7 +20,7 @@ export function ToolList({
   const [data, setData] = useState<Tool[]>(items);
   const router = useRouter();
 
-  // items accumulator
+  // data accumulator
   useEffect(() => {
     setData((prev) => {
       const lastToolId = items?.length ? items[items?.length - 1]?.toolId : 0;

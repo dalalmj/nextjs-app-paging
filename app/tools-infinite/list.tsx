@@ -32,7 +32,8 @@ export function ToolList({
     setPage(page + 1);
     setLoading(false);
   }, [canGetNext, getData, loading, page]);
-  // when user scroll, get next page if required
+
+  // when user scrolls, get next page if required
   const handleScroll = useCallback(
     (event: any) => {
       const elem = event.currentTarget;

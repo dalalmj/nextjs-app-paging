@@ -1,4 +1,3 @@
-import data from "@/data/inventory.json";
 import { ToolList } from "./list";
 import { getData } from "../tools/actions";
 

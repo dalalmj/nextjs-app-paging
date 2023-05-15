@@ -1,6 +1,4 @@
-import data from "@/data/inventory.json";
 import { ToolList } from "./list";
-import { Tool } from "@/components/tool";
 import { getData } from "../tools/actions";
 
 export default async function ListPage({
